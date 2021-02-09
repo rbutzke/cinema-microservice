@@ -1,0 +1,24 @@
+{
+  "name": "movies-service",
+  "version": "1.0.0",
+  "description": "Provide movie info.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index.test | tap-spec"
+  },
+  "author": "Roberto Butzke Junior",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0",
+    "supertest": "^6.1.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.1.1"
+  }
+}
